@@ -1,0 +1,2 @@
+cargo:rustc-link-search=/Users/adamh/Dev/embassy/examples/rp/target/thumbv6m-none-eabi/release/build/defmt-2eb6d93e527f955a/out
+cargo:rustc-cfg=no_cas

@@ -1,0 +1,6 @@
+cargo:rustc-link-search=/Users/adamh/Dev/embassy/examples/rp/target/thumbv6m-none-eabi/release/build/embassy-rp-examples-31218d9cafb77c1c/out
+cargo:rerun-if-changed=memory.x
+cargo:rustc-link-arg-bins=--nmagic
+cargo:rustc-link-arg-bins=-Tlink.x
+cargo:rustc-link-arg-bins=-Tlink-rp.x
+cargo:rustc-link-arg-bins=-Tdefmt.x

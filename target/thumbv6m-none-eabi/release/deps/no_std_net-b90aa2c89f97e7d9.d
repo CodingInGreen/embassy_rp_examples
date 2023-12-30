@@ -1,0 +1,11 @@
+/Users/adamh/Dev/embassy/examples/rp/target/thumbv6m-none-eabi/release/deps/libno_std_net-b90aa2c89f97e7d9.rmeta: /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/lib.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/addr.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/helper.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/ip.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/parser.rs
+
+/Users/adamh/Dev/embassy/examples/rp/target/thumbv6m-none-eabi/release/deps/libno_std_net-b90aa2c89f97e7d9.rlib: /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/lib.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/addr.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/helper.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/ip.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/parser.rs
+
+/Users/adamh/Dev/embassy/examples/rp/target/thumbv6m-none-eabi/release/deps/no_std_net-b90aa2c89f97e7d9.d: /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/lib.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/addr.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/helper.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/ip.rs /Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/parser.rs
+
+/Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/lib.rs:
+/Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/addr.rs:
+/Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/helper.rs:
+/Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/ip.rs:
+/Users/adamh/.cargo/registry/src/index.crates.io-6f17d22bba15001f/no-std-net-0.6.0/src/parser.rs:
