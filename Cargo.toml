@@ -21,6 +21,8 @@ cyw43-pio = { path = "../../cyw43-pio", features = ["defmt", "overclock"] }
 
 defmt = "0.3"
 defmt-rtt = "0.4"
+rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
 fixed = "1.23.1"
 fixed-macro = "1.2"
 
@@ -49,6 +51,10 @@ log = "0.4"
 pio-proc = "0.2"
 pio = "0.2.1"
 rand = { version = "0.8.5", default-features = false }
+
+[dev-dependencies]
+rtt-target = { version = "0.3.1", features = ["cortex-m"] }
+panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
 
 [profile.release]
 debug = 2

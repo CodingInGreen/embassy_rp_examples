@@ -7,6 +7,8 @@
 
 use cyw43_pio::PioSpi;
 use defmt::*;
+use rtt_target::{rprintln, rtt_init_print};
+use panic_rtt_target as _;
 use embassy_executor::Spawner;
 use embassy_rp::bind_interrupts;
 use embassy_rp::gpio::{Level, Output};
@@ -14,7 +16,7 @@ use embassy_rp::peripherals::{DMA_CH0, PIN_23, PIN_25, PIO0};
 use embassy_rp::pio::{InterruptHandler, Pio};
 use embassy_time::{Duration, Timer};
 use static_cell::StaticCell;
-use {defmt_rtt as _, panic_probe as _};
+/* use {defmt_rtt as _, panic_probe as _}; */
 
 bind_interrupts!(struct Irqs {
     PIO0_IRQ_0 => InterruptHandler<PIO0>;
@@ -28,7 +30,10 @@ async fn wifi_task(
 }
 
 #[embassy_executor::main]
+
 async fn main(spawner: Spawner) {
+    rtt_init_print!();
+
     let p = embassy_rp::init(Default::default());
     let fw = include_bytes!("../../../../cyw43-firmware/43439A0.bin");
     let clm = include_bytes!("../../../../cyw43-firmware/43439A0_clm.bin");
@@ -57,11 +62,11 @@ async fn main(spawner: Spawner) {
 
     let delay = Duration::from_secs(1);
     loop {
-        info!("led on!");
+        rprintln!("led on!");
         control.gpio_set(0, true).await;
         Timer::after(delay).await;
 
-        info!("led off!");
+        rprintln!("led off!");
         control.gpio_set(0, false).await;
         Timer::after(delay).await;
     }
